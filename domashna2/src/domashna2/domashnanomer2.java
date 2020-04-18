@@ -61,7 +61,7 @@ public class domashnanomer2 {
 
     }
     public static void skachaneot9tiqetaj() {
-        int nomerEtaj = 0;
+        int nomerEtaj = 8;
         String imeSused;
         String death;
 
@@ -69,35 +69,35 @@ public class domashnanomer2 {
             case 8:
                 imeSused = "Zari";
                 System.out.println("Zdrasti " + imeSused);
-                break;
+                nomerEtaj--;
             case 7:
                 imeSused = "Nikol";
                 System.out.println("Zdrasti " + imeSused);
-                break;
+                nomerEtaj--;
             case 6:
                 imeSused = "Toshe";
                 System.out.println("Zdrasti " + imeSused);
-                break;
+                nomerEtaj--;
             case 5:
                 imeSused = "Petko";
                 System.out.println("Zdrasti " + imeSused);
-                break;
+                nomerEtaj--;
             case 4:
                 imeSused = "Pepi";
                 System.out.println("Zdrasti " + imeSused);
-                break;
+                nomerEtaj--;
             case 3:
                 imeSused = "Mitko";
                 System.out.println("Zdrasti " + imeSused);
-                break;
+                nomerEtaj--;
             case 2:
                 imeSused = "Bilqna";
                 System.out.println("Zdrasti " + imeSused);
-                break;
+                nomerEtaj--;
             case 1:
                 imeSused = "Mimi";
                 System.out.println("Zdrasti " + imeSused);
-                break;
+                nomerEtaj--;
             case 0:
                 death = "Ouch";
                 System.out.println(death);
